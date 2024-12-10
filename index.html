@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="shortcut icon" href="photo/3d-weather-icon-day-with-rain-free-png.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styel/bootstrap.min.css" />
+    <link rel="stylesheet" href="styel/all.min.css" />
+    <link rel="stylesheet" href="styel/index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary-subtle " data-bs-theme="dark">
+      <div class="container-fluid">
+        <img src="photo/3d-weather-icon_754951-477.avif" style="width: 100px;" class="rounded-circle" alt="">
+
+        <a class="navbar-brand d-flex flex-column p-4 text-center fs-6 text-white-50" href="#">weather <small>tagline goes here</small></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item mx-5 border border-primary rounded-pill px-2">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-5 border border-primary rounded-pill px-2">
+              <a class="nav-link text-white" href="#">News</a>
+            </li>
+            <li class="nav-item mx-5 border border-primary rounded-pill px-2">
+              <a class="nav-link text-white " aria-current="page" href="#">Live cameras
+              </a>
+            </li>
+            <li class="nav-item mx-5 border border-primary rounded-pill px-2">
+              <a class="nav-link text-white" href="#">Photos</a>
+            </li>
+            <li class="nav-item mx-5 border border-primary rounded-pill px-2">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+       
+          </ul>
+      
+        </div>
+      </div>
+    </nav>
+    <main>
+      <header class="min-vh-100 d-flex flex-column justify-content-center ">
+        
+          <div class="container-fluid   ">
+            <form class="d-flex ms-auto me-auto  " role="search">
+              <input class="form-control me-5 " id="search" type="search " placeholder="Find your location..." aria-label="Search">
+              <button class="btn btn-outline-success   " type="submit">Search</button>
+            </form>
+          </div>
+  
+       <div class="container-fluid p-5  ">
+        <div class="row g-1">
+          <div class="today forecast col-lg-4  bg-black p-2 text-dark bg-opacity-75 rounded-start pb-5" >
+            <div class="forecast-header d-flex justify-content-between bg-black p-2 text-white bg-opacity-75 "  id="today"> 
+               <div class="day">
+              Friday
+            </div>
+            <div class="data">
+              6December
+
+            </div>
+          </div>
+          <div class="forecast-content" id="current">
+            <div class="location text-secondary fw-bold">cairo</div>
+            <div class="degree">
+              <div class="num text-white fw-bold fs-1">19.1<sup>o</sup>C</div>
+            
+              <div class="forecast-icon">
+                  <img src="https://cdn.weatherapi.com/weather/64x64/night/113.png" alt="" width="90">
+              </div>	
+            </div>
+              <div class="custom text-warning">clear</div>
+              <span><img src="photo/icon-umberella.png" alt="">20%</span>
+              <span><img src="photo/icon-wind.png" alt="">18km/h</span>
+              <span><img src="photo/icon-compass.png" alt="">East</span>
+          
+         
+          </div>
+
+          
+          </div>
+          <div class=" forecast col-lg-4  bg-black p-2 text-dark bg-opacity-75 pb-5 ">
+            <div class="forecast-header text-center bg-black p-2 text-white bg-opacity-75 "> 
+               <div class="day">
+              Friday
+            </div>
+         
+          </div>
+          <div class="forecast-icon text-center">
+            <img src="photo/113.webp" alt="" width="90">
+        </div>	
+          <div class="forecast-content">
+          
+            <div class="degree">
+              <div class="num text-white fw-bold fs-1 text-center">19.1<sup>o</sup>C</div>
+              <div class="num  text-secondary fw-bold text-center">19.1<sup>o</sup>C</div>
+            
+         
+              <div class="custom text-warning text-center">clear</div>
+            
+          
+          </div>
+          </div>
+
+          
+          </div>
+          <div class=" forecast col-lg-4  bg-black p-2 text-dark bg-opacity-75 pb-5 rounded-end ">
+            <div class="forecast-header text-center bg-black p-2 text-white bg-opacity-75 "> 
+               <div class="day">
+              Friday
+            </div>
+         
+          </div>
+          <div class="forecast-icon text-center">
+            <img src="photo/113.webp" alt="" width="90">
+        </div>	
+          <div class="forecast-content">
+          
+            <div class="degree">
+              <div class="num text-white fw-bold fs-1 text-center">19.1<sup>o</sup>C</div>
+              <div class="num  text-secondary fw-bold text-center">19.1<sup>o</sup>C</div>
+            
+         
+              <div class="custom text-warning text-center">clear</div>
+            
+          
+          </div>
+          </div>
+
+          
+          </div>
+        </div>
+       </div>
+
+      </header>
+      <footer class="bg-black p-5">
+       <div class="container ">
+        <div class="row">
+          <div class=" col-md-8">
+            <form action="#" class="subscribe-form">
+              <input class="w-75 " type="text" placeholder="Enter your email to subscribe...">
+              <input class="btn btn-outline-success "type="submit" value="subscribe">
+            </form>
+          </div>
+          <div class="col-md-3 ">
+            <div class="social-links  ">
+              <a href="#"> <i class="fa-brands fa-facebook m-3"></i></a>
+             
+              <a href="#"><i class=" fa-brands fa-twitter m-3"></i></a>
+              <a href="#"><i class=" fa-brands fa-google-plus m-3"></i></a>
+              <a href="#"><i class=" fa-brands fa-pinterest m-3"></i></a>
+
+            </div>
+            
+          </div>
+        </div>
+        <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+       </div>
+
+      </footer>
+   
+    </main>
+   <script src="js/jquery-3.3.1.slim.min.js.download"></script>
+   <script src="js/popper.min.js.download"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

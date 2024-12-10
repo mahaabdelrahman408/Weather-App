@@ -1,0 +1,23 @@
+header{
+  background-image:url(../photo/four.jpg) ;
+background-size: cover;
+background-position: center;
+}
+
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: rgb(15, 163, 217);
+  border-color: rgb(15, 163, 217);
+}
+.btn-outline-success {
+  --bs-btn-color:  rgb(255, 188, 3);
+  --bs-btn-border-color:rgb(255, 188, 3);
+}
+span{
+color: white;
+padding:20px;
+}
+.collapse li:hover {
+background-color: rgb(12, 104, 242);
+
+}
